@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Process-Rapido-test02/static/css/main.2958d0a0.chunk.css",
-    "main.js": "/Process-Rapido-test02/static/js/main.a96f2e26.chunk.js",
-    "main.js.map": "/Process-Rapido-test02/static/js/main.a96f2e26.chunk.js.map",
-    "runtime-main.js": "/Process-Rapido-test02/static/js/runtime-main.9ebe8e59.js",
-    "runtime-main.js.map": "/Process-Rapido-test02/static/js/runtime-main.9ebe8e59.js.map",
+    "main.css": "/Process-Rapido-test02/static/css/main.1c1fda4a.chunk.css",
+    "main.js": "/Process-Rapido-test02/static/js/main.c143bf82.chunk.js",
+    "main.js.map": "/Process-Rapido-test02/static/js/main.c143bf82.chunk.js.map",
+    "runtime-main.js": "/Process-Rapido-test02/static/js/runtime-main.0399cb60.js",
+    "runtime-main.js.map": "/Process-Rapido-test02/static/js/runtime-main.0399cb60.js.map",
     "static/css/2.dab86632.chunk.css": "/Process-Rapido-test02/static/css/2.dab86632.chunk.css",
-    "static/js/2.87192791.chunk.js": "/Process-Rapido-test02/static/js/2.87192791.chunk.js",
-    "static/js/2.87192791.chunk.js.map": "/Process-Rapido-test02/static/js/2.87192791.chunk.js.map",
-    "static/js/3.54d56a95.chunk.js": "/Process-Rapido-test02/static/js/3.54d56a95.chunk.js",
-    "static/js/3.54d56a95.chunk.js.map": "/Process-Rapido-test02/static/js/3.54d56a95.chunk.js.map",
+    "static/js/2.000f0f88.chunk.js": "/Process-Rapido-test02/static/js/2.000f0f88.chunk.js",
+    "static/js/2.000f0f88.chunk.js.map": "/Process-Rapido-test02/static/js/2.000f0f88.chunk.js.map",
+    "static/js/3.793cc562.chunk.js": "/Process-Rapido-test02/static/js/3.793cc562.chunk.js",
+    "static/js/3.793cc562.chunk.js.map": "/Process-Rapido-test02/static/js/3.793cc562.chunk.js.map",
     "index.html": "/Process-Rapido-test02/index.html",
     "static/css/2.dab86632.chunk.css.map": "/Process-Rapido-test02/static/css/2.dab86632.chunk.css.map",
-    "static/css/main.2958d0a0.chunk.css.map": "/Process-Rapido-test02/static/css/main.2958d0a0.chunk.css.map",
-    "static/js/2.87192791.chunk.js.LICENSE.txt": "/Process-Rapido-test02/static/js/2.87192791.chunk.js.LICENSE.txt",
+    "static/css/main.1c1fda4a.chunk.css.map": "/Process-Rapido-test02/static/css/main.1c1fda4a.chunk.css.map",
+    "static/js/2.000f0f88.chunk.js.LICENSE.txt": "/Process-Rapido-test02/static/js/2.000f0f88.chunk.js.LICENSE.txt",
     "static/media/img01.df6f369e.jpg": "/Process-Rapido-test02/static/media/img01.df6f369e.jpg",
     "static/media/img02.f1eafe01.jpg": "/Process-Rapido-test02/static/media/img02.f1eafe01.jpg",
     "static/media/img03.6952de7e.jpg": "/Process-Rapido-test02/static/media/img03.6952de7e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ebe8e59.js",
+    "static/js/runtime-main.0399cb60.js",
     "static/css/2.dab86632.chunk.css",
-    "static/js/2.87192791.chunk.js",
-    "static/css/main.2958d0a0.chunk.css",
-    "static/js/main.a96f2e26.chunk.js"
+    "static/js/2.000f0f88.chunk.js",
+    "static/css/main.1c1fda4a.chunk.css",
+    "static/js/main.c143bf82.chunk.js"
   ]
 }
