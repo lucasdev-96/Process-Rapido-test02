@@ -1,0 +1,40 @@
+.content_father {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    align-items: center;
+}
+
+
+.icons_content {
+    color: rgba(250, 128, 114, 0.637);
+    font-size: 40px;
+}
+
+.content_children {
+    display: flex;
+}
+
+
+
+.content_children div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    word-break: break-all;
+    width: 60%;
+}
+
+.content_children h3 {
+    padding: 10px;
+}
+
+.content_children p {
+    padding: 10px;
+    align-items: flex-start;
+    line-height: 1.6;
+}
+
+.icons_content:hover {
+    transform: scale(1.3);
+}

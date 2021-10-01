@@ -17,6 +17,7 @@
 .header a:hover { 
    text-decoration: underline;
    color: salmon;
+   font-weight: 900;
 }
 
 .icons {
