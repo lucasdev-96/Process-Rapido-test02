@@ -9,7 +9,6 @@
 - [Tecnologias Utilizadas](#tecnologias)
 - [Para Iniciar o Projeto](#iniciar)
 - [Deploy](#deploy)
-  - [Importante](#importante)
 
 <div id="objetivos">
   
