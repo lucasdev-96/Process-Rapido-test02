@@ -28,11 +28,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 760px) {
-    .header a { 
-        font-size:5px;
-    }
-}
 
 .logo {
     width: 100px;
@@ -40,4 +35,10 @@
 
 .icons:hover {
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 760px) {
+    .header a { 
+        font-size:0px;
+    }
 }

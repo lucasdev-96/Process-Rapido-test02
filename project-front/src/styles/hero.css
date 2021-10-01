@@ -62,6 +62,7 @@
 .content p {
    padding: 50px;
    font-weight: 600;
+   text-align: justify; 
 }
 
 .btn_content {
@@ -82,4 +83,39 @@
 
 .btn_content:hover {
     background-color: salmon;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+      width: 100%;
+    }
+    .content h1 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 12px;
+        padding: 20px;
+     }
+     .btn_content {
+         display: flex;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 320px )  and (min-width: 280px) {
+    .content {
+        width: 100%;
+      }
+      .content h1 {
+          font-size: 12px;
+      }
+      .content p {
+          font-size: 10px;
+          padding: 10px;
+       }
+       .btn_content {
+          width: 150px;
+          padding: 10px;
+          font-weight: 500;
+      }
 }
