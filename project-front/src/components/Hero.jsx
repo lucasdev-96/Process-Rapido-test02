@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import '../styles/hero.css';
@@ -6,8 +6,16 @@ import arrayOfImgs from '../services/arrayImgs';
 import Header from './Header';
 
 function Hero() {
-  const renderText = (index) => {
-    if (index === 0) {
+  const [width, setWidth] = useState(window.screen.width);
+  useEffect(() => {
+    window.addEventListener('resize', (e) => {
+      const result = e.target;
+      setWidth(result.screen.width);
+    });
+  }, []);
+
+  const renderTextHero = (index) => {
+    if (index === 0 || !index) {
       return (
         <section className="content">
           <h1>Create Amazing  Websites</h1>
@@ -42,18 +50,39 @@ function Hero() {
       );
     }
   };
+
+  const handleMapImgs = () => (
+    arrayOfImgs.map((elem, index) => (
+      <div key={elem} className="hero_img" style={{ backgroundImage: `url(${elem})` }} alt="a">
+        <div className="blur">
+          <Header />
+          {renderTextHero(index)}
+        </div>
+      </div>
+    ))
+  );
+
+  const handleCarousel = () => {
+    if (width <= 768) {
+      return (
+        <div className="hero_img" style={{ backgroundImage: `url(${arrayOfImgs[0]})` }} alt="a">
+          <div className="blur">
+            <Header width={width} />
+            {renderTextHero()}
+          </div>
+        </div>
+      );
+    }
+    return (
+      <Carousel className="carousel" plugins={['arrows']}>
+        {handleMapImgs()}
+      </Carousel>
+    );
+  };
+
   return (
     <div className="hero">
-      <Carousel className="carousel" plugins={['arrows']}>
-        {arrayOfImgs.map((elem, index) => (
-          <div key={elem} className="hero_img" style={{ backgroundImage: `url(${elem})` }} alt="a">
-            <div className="blur">
-              <Header />
-              {renderText(index)}
-            </div>
-          </div>
-        ))}
-      </Carousel>
+      {handleCarousel()}
     </div>
   );
 }

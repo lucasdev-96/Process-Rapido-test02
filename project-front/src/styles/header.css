@@ -39,6 +39,12 @@
 
 @media screen and (max-width: 760px) {
     .header a { 
-        font-size:0px;
+        font-size:5px;
+    }
+    .icons {
+        font-size: 10px;
+    }
+    .header {
+        padding: 10px;
     }
 }

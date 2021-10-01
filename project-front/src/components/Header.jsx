@@ -4,7 +4,8 @@ import { IoLogoReddit } from 'react-icons/io';
 import { AiOutlineShoppingCart, AiOutlineSearch } from 'react-icons/ai';
 import '../styles/header.css';
 
-function Header() {
+function Header({ width }) {
+  console.log(width);
   return (
     <header>
       <div className="header">
