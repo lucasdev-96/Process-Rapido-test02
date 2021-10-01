@@ -1,1 +1,4 @@
-# Process-Rapido-front-end
+```bash
+npm install
+npm start
+```
