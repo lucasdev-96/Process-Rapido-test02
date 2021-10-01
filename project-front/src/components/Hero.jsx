@@ -10,8 +10,17 @@ function Hero() {
     if (index === 0) {
       return (
         <section className="content">
-          <h1 className="mensage">Create Amazing  Websites</h1>
-          <h1 className="mensage"> With Amazing Graphics</h1>
+          <h1>Create Amazing  Websites</h1>
+          <h1> With Amazing Graphics</h1>
+          <p>
+            Lorem ipsum dolor sit amet. Est nulla tempore 33
+            nulla internos aut sint minima et nesciunt consequuntur
+            sit quae blanditiis ab dolorem fugit!
+          </p>
+          <div className="container_btn">
+            <button className="btn_content" type="button">Explore More</button>
+            <button className="btn_content" type="button">Buy now</button>
+          </div>
         </section>
       );
     }
@@ -21,8 +30,10 @@ function Hero() {
       <Carousel className="carousel" plugins={['arrows']}>
         {arrayOfImgs.map((elem, index) => (
           <div className="hero_img" style={{ backgroundImage: `url(${elem})` }} alt="a">
-            <Header />
-            {renderText(index)}
+            <div className="blur">
+              <Header />
+              {renderText(index)}
+            </div>
           </div>
         ))}
       </Carousel>
