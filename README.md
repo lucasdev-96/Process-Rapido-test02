@@ -22,7 +22,7 @@
 
 <div id="detalhes">
   
-<details>
+
   <summary>Detalhes do Desafio</summary>
   
   # Processo Rápido
