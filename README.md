@@ -80,4 +80,4 @@
 
 - Para visualizar direto em seu navegador, sem a necessidade de clonar, acesse:
 
-🌎 https://github.com/lucasdev-96/Process-Rapido-test02
+🌎 https://lucasdev-96.github.io/Process-Rapido-test02/
