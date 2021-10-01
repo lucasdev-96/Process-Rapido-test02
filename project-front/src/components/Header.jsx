@@ -11,12 +11,12 @@ function Header({ width }) {
       <div className="header">
         <IoLogoReddit style={{ fontSize: '50px' }} className="icons" />
         <nav className="links">
-          <a href="home">HOME</a>
-          <a href="home">PAGES</a>
-          <a href="home">PORTFOLIOS</a>
-          <a href="home">HEADERS</a>
-          <a href="home">ELEMENTS</a>
-          <a href="home">BLOGS</a>
+          <a href="#home">HOME</a>
+          <a href="#home">PAGES</a>
+          <a href="#home">PORTFOLIOS</a>
+          <a href="#home">HEADERS</a>
+          <a href="#home">ELEMENTS</a>
+          <a href="#home">BLOGS</a>
 
         </nav>
         { width <= 768 ? null : (
