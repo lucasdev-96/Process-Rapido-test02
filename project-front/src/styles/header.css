@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.header a { 
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.header a:hover { 
+   text-decoration: underline;
+   color: salmon;
+}
+
+.icons {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 760px) {
+    .header a { 
+        font-size:5px;
+    }
+}
