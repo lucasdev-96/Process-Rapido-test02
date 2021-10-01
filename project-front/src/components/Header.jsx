@@ -1,11 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { BiBarChartAlt } from 'react-icons/bi';
 import { IoLogoReddit } from 'react-icons/io';
 import { AiOutlineShoppingCart, AiOutlineSearch } from 'react-icons/ai';
 import '../styles/header.css';
 
 function Header({ width }) {
-  console.log(width);
   return (
     <header>
       <div className="header">
@@ -19,14 +19,20 @@ function Header({ width }) {
           <a href="home">BLOGS</a>
 
         </nav>
-        <div>
-          <AiOutlineSearch className="icons" />
-          <AiOutlineShoppingCart className="icons" />
-          <BiBarChartAlt className="icons" />
-        </div>
+        { width <= 768 ? null : (
+          <div>
+            <AiOutlineSearch className="icons" />
+            <AiOutlineShoppingCart className="icons" />
+            <BiBarChartAlt className="icons" />
+          </div>
+        )}
       </div>
     </header>
   );
 }
+
+Header.propTypes = {
+  width: PropTypes.number.isRequired,
+};
 
 export default Header;
