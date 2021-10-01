@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaBeer } from 'react-icons/fa';
 import { BiBarChartAlt } from 'react-icons/bi';
+import { IoLogoReddit } from 'react-icons/io';
 import { AiOutlineShoppingCart, AiOutlineSearch } from 'react-icons/ai';
 import '../styles/header.css';
 
@@ -8,7 +8,7 @@ function Header() {
   return (
     <header>
       <div className="header">
-        <FaBeer className="icons" />
+        <IoLogoReddit style={{ fontSize: '50px' }} className="icons" />
         <nav className="links">
           <a href="home">HOME</a>
           <a href="home">PAGES</a>

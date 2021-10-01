@@ -4,6 +4,7 @@
     padding: 40px;
     width: 100%;
     margin: auto;
+    align-items: center;
 }
 
 .header a { 
@@ -21,12 +22,21 @@
 .icons {
     color: white;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 760px) {
     .header a { 
         font-size:5px;
     }
+}
+
+.logo {
+    width: 100px;
+}
+
+.icons:hover {
+    transform: scale(1.2);
 }
