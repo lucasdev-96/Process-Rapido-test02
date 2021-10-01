@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBeer } from 'react-icons/fa';
+import { BiBarChartAlt } from 'react-icons/bi';
 import { AiOutlineShoppingCart, AiOutlineSearch } from 'react-icons/ai';
 import '../styles/header.css';
 
@@ -20,6 +21,7 @@ function Header() {
         <div>
           <AiOutlineSearch className="icons" />
           <AiOutlineShoppingCart className="icons" />
+          <BiBarChartAlt className="icons" />
         </div>
       </div>
     </header>
