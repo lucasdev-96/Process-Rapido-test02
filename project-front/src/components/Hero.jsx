@@ -18,7 +18,7 @@ function Hero() {
     if (index === 0 || !index) {
       return (
         <section className="content">
-          <h1 id="/home">Create Amazing  Websites</h1>
+          <h1 id="home">Create Amazing  Websites</h1>
           <h1> With Amazing Graphics</h1>
           <p>
             Lorem ipsum dolor sit amet. Est nulla tempore 33
@@ -35,7 +35,7 @@ function Hero() {
     if (index === 1) {
       return (
         <section className="content">
-          <h1 id="/home">The Code is beautiful</h1>
+          <h1 id="home">The Code is beautiful</h1>
           <h1> JavaScript 😍</h1>
           <p>
             Lorem ipsum dolor sit amet. Est nulla tempore 33
